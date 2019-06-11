@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/*! -----------------------------------------------------------------
+[Master Stylesheet]
+
+Project:     Djames
+Version:     1.0.0
+
+------------------------------------------------------------------
+[General Styles]
+*/
+
+
+
+.nubrinkprimary {
+    color: #00B4B4;
+}
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+.brand-logo {width: 30%}
+.brand-tagline {width: 50%;}
+}
+
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 731px) and (max-device-width : 1024px) {
+.brand-logo {width: 30%}
+.brand-tagline {width: 50%;}
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 667px) {
+.brand-logo {width: 60%}
+.brand-tagline {width: 100%;}
+}
