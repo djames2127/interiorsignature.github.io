@@ -394,30 +394,7 @@
 		 * Lightbox, Gallery
 		/* ---------------------------------------------- */
 
-		$('.gallery [rel=gallery]').magnificPopup({
-			type: 'image',
-			gallery: {
-				enabled: true,
-				navigateByImgClick: true,
-				preload: [0,1]
-			},
-			image: {
-				titleSrc: 'title',
-				tError: 'The image could not be loaded.',
-			},
-			callbacks: {
 
-				open: function() {
-					//$('body').addClass('noscroll');
-					$('html').css('margin-right', '0');
-				},
-
-				close: function() {
-					//$('body').removeClass('noscroll');
-					$('html').css('margin-right', 0);
-				}
-			}
-		});
 
 		$('.portfolio-item .photo').magnificPopup({
 			type: 'image',
