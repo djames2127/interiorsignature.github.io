@@ -20,6 +20,7 @@ Version:     1.0.0
 @media only screen  and (min-width : 1224px) {
 .brand-logo {width: 30%}
 .brand-tagline {width: 50%;}
+.bizSafe-logo {width: 50%;}  
 }
 
 
@@ -28,6 +29,7 @@ Version:     1.0.0
 @media only screen and (min-device-width : 731px) and (max-device-width : 1024px) {
 .brand-logo {width: 30%}
 .brand-tagline {width: 50%;}
+.bizSafe-logo {width: 40%;}  
 }
 
 
@@ -35,4 +37,5 @@ Version:     1.0.0
 @media only screen and (min-device-width : 320px) and (max-device-width : 667px) {
 .brand-logo {width: 60%}
 .brand-tagline {width: 100%;}
+.bizSafe-logo {width: 100%;}  
 }
