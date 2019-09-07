@@ -435,10 +435,10 @@ pre {
     border-width: 0;
     border-bottom-width: 1px;
     border-color: #eee;
+    letter-spacing: 1px;
     text-transform: uppercase;
-    letter-spacing: 2px;
     font-family: "Montserrat", Arial, serif;
-    font-size: .625rem;
+    font-size: .800rem;
     padding: 1rem 0;
 }
 
@@ -459,6 +459,7 @@ pre {
 
 .input-group-addon {
     border-color: #eee;
+    
 }
 
 select.form-control:not([size]):not([multiple]) {
@@ -480,7 +481,7 @@ select.form-control-sm:not([size]):not([multiple]) {
 }
 
 .help-block.text-danger {
-    color: #828282 !important;
+    color: #dc3545 !important;
 }
 
 .help-block ul,

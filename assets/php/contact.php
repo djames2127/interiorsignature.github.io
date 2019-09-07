@@ -1,11 +1,11 @@
 <?php
 
 	// Mail settings
-	$to      = "enquiry@Interiorsignature.com";
+	$to      = "ask@Interiorsignature.com";
 	$subject = "Website Enquiry";
 
 	// You can put here your email
-	$header = "From: enquiry@Interiorsignature.com";
+	$header = "From: ask@Interiorsignature.com";
 	$header.= "MIME-Version: 1.0\r\n";
 	$header.= "Content-Type: text/plain; charset=utf-8\r\n";
 	$header.= "X-Priority: 1\r\n";
