@@ -1,7 +1,7 @@
 <?php
 
 	// Mail settings
-	$to      = "ask@Interiorsignature.com, alberttee1986@gmail.com";
+	$to      = "ask@Interiorsignature.com";
 	$subject = "Website Enquiry";
 
 	// You can put here your email
